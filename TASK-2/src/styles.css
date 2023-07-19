@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(hexagons.jpg);
+  background-size: cover;
+}
+.loader {
+  margin: 0 auto;
+}
+
+.avatar {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+}
+.user-item {
+  display: flex;
+  margin-bottom: 15px;
+  background-color: #00000075;
+  width: 40rem;
+  margin-left: 28%;
+  color: #66fcf1;
+}
+.right-section {
+  display: inline;
+  margin-left: 25px;
+}
+.get-users {
+  margin-top: 0rem;
+  font-size: 28px;
+  margin-left: 44%;
+  margin-bottom: 25px;
+  background-color: #6400ff1c;
+  color: aliceblue;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+  padding: 5px;
+}
+.get-users:hover {
+  transform: scale(1.1);
+}
+.loader {
+  width: 200px;
+  height: 200px;
+  background-image: url(Spinner3.gif);
+  background-size: cover;
+  margin-left: 41.5%;
+}
+
+.my-api {
+  font-size: 80px;
+  color: gold;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: -32px;
+  text-align: center;
+  margin-top: 15px;
+  position: relative;
+  width: fit-content;
+  left: 41%;
+  letter-spacing: 15px;
+}
+
+.created-by {
+  color: white;
+  margin-left: 41%;
+}
